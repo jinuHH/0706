@@ -60,6 +60,6 @@
 # print("프로그램 종료")
 
 #여러 개 입력
-hobbys = input("취미를 , 로 구분해서 입력: ").split(",")
+hobbys = input("취미 , 로 구분해서 입력: ").split(",")
 for hobby in hobbys:
     print(hobby)
